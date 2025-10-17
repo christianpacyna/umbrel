@@ -4,7 +4,7 @@ name: MariaDB - phpMyAdmin
 tagline: Docker Stack aus MariaDB und phpMyadmin
 icon: https://svgur.com/i/mvA.svg
 category: Development
-version: "1.0.0"
+version: "1.0.1"
 port: 4001
 description: >-
   Das ist ein Dockerstack aus einer MariaDB Datenbank und phpMyAdmin.
