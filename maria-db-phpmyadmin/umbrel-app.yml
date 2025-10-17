@@ -1,6 +1,6 @@
 manifestVersion: 1
 id: maria-db-phpmyadmin
-name: MariaDB % phpMyAdmin
+name: MariaDB - phpMyAdmin
 tagline: Docker Stack aus MariaDB und phpMyadmin
 icon: https://svgur.com/i/mvA.svg
 category: Development
