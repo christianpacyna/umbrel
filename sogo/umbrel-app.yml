@@ -3,7 +3,7 @@ id: christian-sogo
 name: SOGo Groupware
 tagline: SOGo Groupware für Umbrel
 icon: https://www.sogo.nu/img/sogo.svg
-category: Development
+category: Office
 version: "1.0.0"
 port: 4002
 description: >-
