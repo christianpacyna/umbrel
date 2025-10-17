@@ -1,5 +1,5 @@
 manifestVersion: 1
-id: mariadb
+id: christian-mariadb
 name: MariaDB
 tagline: Docker Stack aus MariaDB und phpMyadmin
 icon: https://mariadb.com/wp-content/uploads/2019/11/mariadb-logo-vertical_white.svg
