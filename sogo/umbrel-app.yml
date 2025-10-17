@@ -1,7 +1,7 @@
 manifestVersion: 1
 id: christian-sogo
 name: SOGo Groupware
-tagline: SOGo Groupware für Umbrel=S
+tagline: SOGo Groupware für Umbrel
 icon: https://www.sogo.nu/img/sogo.svg
 category: Development
 version: "1.0.0"
