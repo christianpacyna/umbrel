@@ -16,9 +16,7 @@ services:
     ports:
       - "3306:3306"
     volumes:
-      - mariadb_data:/var/lib/mysql
-    user: "1000:1000"
-    init: true
+      - ${APP_DATA_DIR}/mariadb:/var/lib/mysql
 
   phpmyadmin:
     image: phpmyadmin/phpmyadmin:latest
@@ -27,11 +25,5 @@ services:
       PMA_HOST: mariadb
     ports:
       - "4001:80"
-    user: "1000:1000"
-    init: true
     depends_on:
       - mariadb
-volumes:
-  mariadb_data:
-    external: false
-    name: mariadb_data
