@@ -5,10 +5,33 @@ services:
   app_proxy:
     environment:
       # The format here is: <app-id>_<docker-service-name>_1
-      APP_HOST: sparkles-hello-world_server_1
-      APP_PORT: 3000
+      APP_HOST: maria-db-phpmyadmin_1
+      APP_PORT: 4001
     
-  server:
-    image: getumbrel/community-app-store-hello-world:latest
+  mariadb:
+    image: mariadb:latest
+    restart: always
+    environment:
+      MYSQL_ROOT_PASSWORD: 4agNTgoV5GGJw-zily_5pC
+    ports:
+      - "3306:3306"
+    volumes:
+      - mariadb_data:/var/lib/mysql
     user: "1000:1000"
     init: true
+
+  phpmyadmin:
+    image: phpmyadmin/phpmyadmin:latest
+    restart: always
+    environment:
+      PMA_HOST: mariadb
+    ports:
+      - "4001:80"
+    user: "1000:1000"
+    init: true
+    depends_on:
+      - mariadb
+volumes:
+  mariadb_data:
+    external: false
+    name: mariadb_data
