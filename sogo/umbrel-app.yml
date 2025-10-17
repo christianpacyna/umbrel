@@ -1,0 +1,25 @@
+manifestVersion: 1
+id: sogo
+name: SOGo Groupware
+tagline: SOGo Groupware für Umbrel=S
+icon: https://www.sogo.nu/img/sogo.svg
+category: Development
+version: "1.0.0"
+port: 4002
+description: >-
+  Die bekannte SOGo Groupware für UmbrelOS. Es muss ein externer IMAP & SMTP sowie MariaDB Server vorhanden sein.
+
+developer: Christian Pacyna
+website: https://pacyna.de
+submitter: Christian Pacyna
+submission: https://github.com/christianpacyna/umbrel
+repo: https://github.com/christianpacyna/umbrel
+support: https://github.com/christianpacyna/umbrel/issues
+gallery:
+  - https://www.sogo.nu/img/screenshot.png
+releaseNotes: >-
+  Initial Release
+dependencies: []
+path: ""
+defaultUsername: ""
+defaultPassword: ""
