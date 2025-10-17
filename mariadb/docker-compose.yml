@@ -25,5 +25,6 @@ services:
     restart: always
     environment:
       PMA_HOST: db
+      PMA_ARBITRARY: 1
     depends_on:
       - db

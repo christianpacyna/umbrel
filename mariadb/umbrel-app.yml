@@ -4,7 +4,7 @@ name: MariaDB
 tagline: Docker Stack aus MariaDB und phpMyadmin
 icon: https://mariadb.com/wp-content/uploads/2019/11/mariadb-logo-vertical_white.svg
 category: Development
-version: "1.0.18"
+version: "1.0.19"
 port: 4001
 description: >-
   Das ist ein Dockerstack aus einer MariaDB Datenbank und phpMyAdmin.
