@@ -12,7 +12,7 @@ services:
     image: mariadb:latest
     restart: always
     environment:
-      MYSQL_ROOT_PASSWORD: 4agNTgoV5GGJw-zily_5pC
+      MYSQL_ROOT_PASSWORD: "4agNTgoV5GGJw-zily_5pC"
       TZ: Europe/Berlin
     ports:
       - 3306:3306
