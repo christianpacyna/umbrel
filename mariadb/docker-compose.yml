@@ -19,8 +19,9 @@ services:
     ports:
       - 3307:3306
     volumes:
-      - ${APP_DATA_DIR}/data/db:/var/lib/mysql
-      - ${APP_DATA_DIR}/data/config:/config
+      - ${APP_DATA_DIR}/data/mariadb:/config
+    networks:
+      - mariadb
 
   app:
     image: phpmyadmin/phpmyadmin:latest
@@ -30,3 +31,9 @@ services:
       #PMA_ARBITRARY: 1
     depends_on:
       - db
+    networks:
+      - mariadb
+networks:
+  mariadb:
+    # Specify driver options
+    driver: bridge
