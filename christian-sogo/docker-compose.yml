@@ -8,6 +8,6 @@ services:
   app:
     image: pmietlicki/sogo
     environment:
-      - SOGoMailingMechanism: "smtp"
+      - SOGoMailingMechanism: 'smtp'
     volumes:
       - ${APP_DATA_DIR}/data/sogo:/srv

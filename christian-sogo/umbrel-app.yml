@@ -4,7 +4,7 @@ name: SOGo Groupware
 tagline: SOGo Groupware für Umbrel
 icon: https://www.sogo.nu/img/sogo.svg
 category: Office
-version: "1.0.0"
+version: "1.0.1"
 port: 4002
 description: >-
   Die bekannte SOGo Groupware für UmbrelOS. Es muss ein externer IMAP & SMTP sowie MariaDB Server vorhanden sein.
