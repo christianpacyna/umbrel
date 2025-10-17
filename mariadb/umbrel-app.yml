@@ -4,10 +4,12 @@ name: MariaDB
 tagline: Docker Stack aus MariaDB und phpMyadmin
 icon: https://mariadb.com/wp-content/uploads/2019/11/mariadb-logo-vertical_white.svg
 category: Development
-version: "1.0.23"
+version: "1.0.0"
 port: 4001
 description: >-
   Das ist ein Dockerstack aus einer MariaDB Datenbank und phpMyAdmin.
+  Der externe Zugriff auf die MariaDB erfolgt über den Port 3307.
+  Bitte das root Passwort nach der ersten Anmeldung zwingend ändern.
 
 developer: Christian Pacyna
 website: https://pacyna.de

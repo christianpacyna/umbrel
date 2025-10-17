@@ -13,8 +13,6 @@ services:
     restart: always
     environment:
       MYSQL_ROOT_PASSWORD: 4agNTgoV5GGJwzily5pC
-      MYSQL_PASSWORD: 4agNTgoV5GGJwzily5pC
-      MYSQL_USER: phpmyadmin
       TZ: Europe/Berlin
     ports:
       - 3307:3306
