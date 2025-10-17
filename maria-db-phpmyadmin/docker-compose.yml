@@ -15,7 +15,7 @@ services:
       MYSQL_ROOT_PASSWORD: "4agNTgoV5GGJw-zily_5pC"
       TZ: Europe/Berlin
     ports:
-      - 3306:3306
+      - 3307:3306
     volumes:
       - ${APP_DATA_DIR}/data/mariadb:/var/lib/mysql
 
