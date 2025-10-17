@@ -23,6 +23,6 @@ services:
     image: phpmyadmin/phpmyadmin:latest
     restart: always
     environment:
-      PMA_HOST: mariadb_db_1
+      PMA_HOST: christian-mariadb_db_1
     depends_on:
       - db
