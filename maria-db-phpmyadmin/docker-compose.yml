@@ -16,7 +16,7 @@ services:
     ports:
       - "3306:3306"
     volumes:
-      - ${APP_DATA_DIR}/mariadb:/var/lib/mysql
+      - ${APP_DATA_DIR}/data/mariadb:/var/lib/mysql
 
   phpmyadmin:
     image: phpmyadmin/phpmyadmin:latest
