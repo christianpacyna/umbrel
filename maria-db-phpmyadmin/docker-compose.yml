@@ -5,7 +5,7 @@ services:
   app_proxy:
     environment:
       # The format here is: <app-id>_<docker-service-name>_1
-      APP_HOST: maria-db-phpmyadmin_app_1
+      APP_HOST: mariadb_app_1
       APP_PORT: 80
     
   db:
